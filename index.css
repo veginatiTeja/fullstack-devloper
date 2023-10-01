@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.notifications-app-container {
+  /* background-color: #ffffff; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-family: Roboto;
+  font-size: 32px;
+  color: #0f172a;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.notifications-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .notifications-list-container {
+    width: 60%;
+  }
+}
+
+.primary-bg-color {
+  background-color: #0b69ff;
+}
+
+.success-bg-color {
+  background-color: #2dca73;
+}
+
+.warning-bg-color {
+  background-color: #ffb800;
+}
+
+.danger-bg-color {
+  background-color: #ff0b37;
+}
+
+.notification-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  padding: 12px 18px 12px 8px;
+  margin-bottom: 32px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.message {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
